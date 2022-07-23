@@ -10,3 +10,12 @@ react-hook-form
 
 @sentry/react
 @sentry/tracing
+
+
+@faker-js/faker
+lodash
+@types/lodash
+
+query-string
+
+react-toastify

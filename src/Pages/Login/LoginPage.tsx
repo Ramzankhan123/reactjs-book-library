@@ -1,6 +1,6 @@
 import React from 'react';
-import ButtonComponent from '../../Components/Button/ButtonComponent';
-import TextFieldComponent from '../../Components/TextField/TextFieldComponent';
+import ButtonComponent from '../../components/Buttons/ButtonComponent';
+import TextFieldComponent from '../../components/TextField/TextFieldComponent';
 import EmailIcon from '../../Icons/Email-Icon';
 import LockIcon from '../../Icons/Lock-Icon';
 import { useForm } from 'react-hook-form';

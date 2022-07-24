@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import routes from '../../../../Lib/Routes/Routes';
+import routes from '../../../Lib/Routes/Routes';
 
 export default function SidebarComponent() {
   return (

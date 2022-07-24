@@ -5,7 +5,7 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import queryString from 'query-string';
 
-import ButtonComponent from '../../../../Components/Button/ButtonComponent';
+import ButtonComponent from '../../../../components/Buttons/ButtonComponent';
 import routes from '../../../../Lib/Routes/Routes';
 import { useAppSelector } from '../../../../Lib/Store/hooks';
 import { postSliceActions } from '../../../../Lib/Store/Post/Post.slice';

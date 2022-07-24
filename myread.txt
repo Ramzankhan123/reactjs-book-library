@@ -7,10 +7,10 @@ reactjs-popup
 react-router-dom - for routing api
 
 react-hook-form
-
+----------------
 @sentry/react
 @sentry/tracing
-
+-----------------
 
 @faker-js/faker
 lodash
@@ -19,3 +19,5 @@ lodash
 query-string
 
 react-toastify
+
+sass

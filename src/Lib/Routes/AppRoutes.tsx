@@ -3,17 +3,17 @@ import { Route, Routes } from 'react-router-dom';
 import LoadingOverLay from '../../components/Loading/LoadingOverLay';
 import { AuthGuard } from '../Guards/AuthGuard';
 import routes from './Routes';
-const NotFound = React.lazy(() => import('../../Page/NotFoundPage'));
-const IndexPage = React.lazy(() => import('../../Page/Index'));
-const AppPage = React.lazy(() => import('../../Page/AppPage'));
-const LoginPage = React.lazy(() => import('../../Page/Login/LoginPage'));
-const ForgetPassword = React.lazy(() => import('../../Page/ForgetPassword/ForgetPassword'));
-const RegisterPage = React.lazy(() => import('../../Page/Register/RegisterPage'));
+const NotFound = React.lazy(() => import('../../Pages/NotFoundPage'));
+const IndexPage = React.lazy(() => import('../../Pages/Index'));
+const AppPage = React.lazy(() => import('../../Pages/AppPage'));
+const LoginPage = React.lazy(() => import('../../Pages/Login/LoginPage'));
+const ForgetPassword = React.lazy(() => import('../../Pages/ForgetPassword/ForgetPassword'));
+const RegisterPage = React.lazy(() => import('../../Pages/Register/RegisterPage'));
 
-const DashboardPage = React.lazy(() => import('../../Page/Dashboard/DashboardPage'));
-const ProfilePage = React.lazy(() => import('../../Page/Profile/ProfilePage'));
-const PostList = React.lazy(() => import('../../Page/Dashboard/Post/PostList/PostList'));
-const PostDetails = React.lazy(() => import('../../Page/Dashboard/Post/PostDetails/PostDetails'));
+const DashboardPage = React.lazy(() => import('../../Pages/Dashboard/DashboardPage'));
+const ProfilePage = React.lazy(() => import('../../Pages/Profile/ProfilePage'));
+const PostList = React.lazy(() => import('../../Pages/Dashboard/Post/PostList/PostList'));
+const PostDetails = React.lazy(() => import('../../Pages/Dashboard/Post/PostDetails/PostDetails'));
 
 
 
